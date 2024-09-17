@@ -7,7 +7,9 @@ import {
   StyledInfo,
   StyledSubTitle,
   StyledTitle,
-} from "../Header/Styles";
+  List,
+  NavList,
+} from "./Styles";
 import {
   faGithub,
   faInstagram,
@@ -20,19 +22,22 @@ export const Header = () => {
     <>
       <StyledHeader>
         <HeaderContent>
-          <StyledTitle>Alisson Portela</StyledTitle>
-          <StyledSubTitle>Lorem Ipsum</StyledSubTitle>
-          <StyledInfo>
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Vivamus maximus
-            leo, suscipit porttitor natoque.
-          </StyledInfo>
-          <nav>
-            <SectionsList>
-              <li>a</li>
-              <li>a</li>
-              <li>a</li>
-            </SectionsList>
-          </nav>
+          <div>
+            <StyledTitle>Alisson Portela</StyledTitle>
+            <StyledSubTitle>Desenvolvedor Web</StyledSubTitle>
+            <StyledInfo>
+              Desenvolvedor web com experiência em React.js para aplicações web,
+              trazendo soluções do front ao mobile com a mesma agilidade que um
+              café expresso traz energia!
+            </StyledInfo>
+            <NavList>
+              <SectionsList>
+                <List>Sobre</List>
+                <List>Experiência</List>
+                <List>Projetos</List>
+              </SectionsList>
+            </NavList>
+          </div>
           <LinkArea>
             <a href="">
               <FontAwesomeIcon
