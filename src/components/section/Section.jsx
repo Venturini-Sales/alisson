@@ -1,9 +1,9 @@
 import { SectionContainer, SectionText } from "./styles";
 
 // eslint-disable-next-line react/prop-types
-const Section = ({ children }) => {
+const Section = ({ id, children }) => {
   return (
-    <SectionContainer>
+    <SectionContainer id={id}>
       <SectionText>{children}</SectionText>
     </SectionContainer>
   );

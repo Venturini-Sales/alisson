@@ -4,7 +4,6 @@ export const CardContainer = styled.div`
     background-color: #191919;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     padding: 20px;
     border-radius: 5px;
     transition: 0.3s;
@@ -17,13 +16,27 @@ export const CardContainer = styled.div`
 `;
 
 export const InfoArea = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
     flex: 1;
 
     p{  
         text-transform: uppercase;
-        color: #808da2;
+        color: #7E7E7E;
         font-size: 13px;
         font-weight: 500;
+    }
+
+    img{
+
+        width: 120px;
+        height: 70px;
+        border: 2px solid #2c2c2c;
+        border-radius: 5px;
+
     }
 
 `

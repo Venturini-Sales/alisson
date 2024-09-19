@@ -31,7 +31,7 @@ export const StyledSubTitle = styled.h2`
 `;
 
 export const StyledInfo = styled.p`
-  color: #808da2;
+  color: #7E7E7E;
   width: 400px;
   margin-top: 20px;
 `;
@@ -46,6 +46,11 @@ export const SectionsList = styled.ul`
 
 export const List = styled.li`
   margin-bottom:20px;
+  cursor: pointer;
+  .active {
+    color: #F7F7F7; /* Cor do item ativo */
+    font-weight: bold;
+  }
 `;
 
 export const LinkArea = styled.div`

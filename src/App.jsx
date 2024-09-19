@@ -1,3 +1,4 @@
+/* eslint-disable react/no-children-prop */
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 import { Header } from "./components/header/Header";
@@ -11,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     user-select: none;
     font-family: "Inter",Arial, Helvetica, sans-serif;
-    color: #e2e8f0;
+    color: #d4d4d4;
 }
 &::-webkit-scrollbar {
     width: 7px;
@@ -71,23 +72,127 @@ function App() {
             paddingBottom: "6rem",
           }}
         >
+          <Section id="about">
+            Minha jornada na programação começou com um interesse em tecnologia
+            e jogos. Inicialmente, foi uma curiosidade superficial, mas logo sez
+            nti anecessidade de me aprofundar para entender melhor o que estava
+            por trás disso. Então, ingressei na faculdade de Análise e
+            Desenvolvimento deSistemas, onde me apaixonei pela área. Após
+            concluir o curso, dei meusprimeiros passos no mercado de trabalho,
+            transformando essa paixão emcarreira.Minha jornada na programação
+            começou com um interesse em tecnologia e jogos. Inicialmente, foi
+            uma curiosidade superficial, mas logo sez nti anecessidade de me
+            aprofundar para entender melhor o que estava por trás disso. Então,
+            ingressei na faculdade de Análise e Desenvolvimento deSistemas, onde
+            me apaixonei pela área. Após concluir o curso, dei meusprimeiros
+            passos no mercado de trabalho, transformando essa paixão
+            emcarreira.Minha jornada na programação começou com um interesse em
+            tecnologia e jogos. Inicialmente, foi uma curiosidade superficial,
+            mas logo sez nti anecessidade de me aprofundar para entender melhor
+            o que estava por trás disso. Então, ingressei na faculdade de
+            Análise e Desenvolvimento deSistemas, onde me apaixonei pela área.
+            Após concluir o curso, dei meusprimeiros passos no mercado de
+            trabalho, transformando essa paixão emcarreira.Minha jornada na
+            programação começou com um interesse em tecnologia e jogos.
+            Inicialmente, foi uma curiosidade superficial, mas logo sez nti
+            anecessidade de me aprofundar para entender melhor o que estava por
+            trás disso. Então, ingressei na faculdade de Análise e
+            Desenvolvimento deSistemas, onde me apaixonei pela área. Após
+            concluir o curso, dei meusprimeiros passos no mercado de trabalho,
+            transformando essa paixão emcarreira.Minha jornada na programação
+            começou com um interesse em tecnologia e jogos. Inicialmente, foi
+            uma curiosidade superficial, mas logo sez nti anecessidade de me
+            aprofundar para entender melhor o que estava por trás disso. Então,
+            ingressei na faculdade de Análise e Desenvolvimento deSistemas, onde
+            me apaixonei pela área. Após concluir o curso, dei meusprimeiros
+            passos no mercado de trabalho, transformando essa paixão
+            emcarreira.Minha jornada na programação começou com um interesse em
+            tecnologia e jogos. Inicialmente, foi uma curiosidade superficial,
+            mas logo sez nti anecessidade de me aprofundar para entender melhor
+            o que estava por trás disso. Então, ingressei na faculdade de
+            Análise e Desenvolvimento deSistemas, onde me apaixonei pela área.
+            Após concluir o curso, dei meusprimeiros passos no mercado de
+            trabalho, transformando essa paixão emcarreira.Minha jornada na
+            programação começou com um interesse em tecnologia e jogos.
+            Inicialmente, foi uma curiosidade superficial, mas logo sez nti
+            anecessidade de me aprofundar para entender melhor o que estava por
+            trás disso. Então, ingressei na faculdade de Análise e
+            Desenvolvimento deSistemas, onde me apaixonei pela área. Após
+            concluir o curso, dei meusprimeiros passos no mercado de trabalho,
+            transformando essa paixão emcarreira.Minha jornada na programação
+            começou com um interesse em tecnologia e jogos. Inicialmente, foi
+            uma curiosidade superficial, mas logo sez nti anecessidade de me
+            aprofundar para entender melhor o que estava por trás disso. Então,
+            ingressei na faculdade de Análise e Desenvolvimento deSistemas, onde
+            me apaixonei pela área. Após concluir o curso, dei meusprimeiros
+            passos no mercado de trabalho, transformando essa paixão
+            emcarreira.Minha jornada na programação começou com um interesse em
+            tecnologia e jogos. Inicialmente, foi uma curiosidade superficial,
+            mas logo sez nti anecessidade de me aprofundar para entender melhor
+            o que estava por trás disso. Então, ingressei na faculdade de
+            Análise e Desenvolvimento deSistemas, onde me apaixonei pela área.
+            Após concluir o curso, dei meusprimeiros passos no mercado de
+            trabalho, transformando essa paixão emcarreira.Minha jornada na
+            programação começou com um interesse em tecnologia e jogos.
+            Inicialmente, foi uma curiosidade superficial, mas logo sez nti
+            anecessidade de me aprofundar para entender melhor o que estava por
+            trás disso. Então, ingressei na faculdade de Análise e
+            Desenvolvimento deSistemas, onde me apaixonei pela área. Após
+            concluir o curso, dei meusprimeiros passos no mercado de trabalho,
+            transformando essa paixão emcarreira.
+          </Section>
           <Section
-            // eslint-disable-next-line react/no-children-prop
+            id="experience"
             children={
-              "Minha jornada na programação começou com um interesse em tecnologia e jogos. Inicialmente, foi uma curiosidade superficial, mas logo sez nti anecessidade de me aprofundar para entender melhor o que estava por trás disso. Então, ingressei na faculdade de Análise e Desenvolvimento deSistemas, onde me apaixonei pela área. Após concluir o curso, dei meusprimeiros passos no mercado de trabalho, transformando essa paixão emcarreira."
+              "Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web.Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web."
             }
           />
-          <Section
-            // eslint-disable-next-line react/no-children-prop
-            children={
-              "Enquanto estava na universidade, foquei no desenvolvimento front-end, onde aprofundei meus estudos em tecnologias como React e suas bibliotecas. Além do conteúdo acadêmico, investi em cursos complementares para expandir meus conhecimentos em JavaScript, HTML, CSS, e frameworks como React.js. Esses estudos me permitiram criar projetos mais robustos, tanto para as disciplinas quanto para meu portfólio, aplicando boas práticas e explorando componentes reutilizáveis, gestão de estados e estilização com ferramentas como styled-components. Essa dedicação me preparou para enfrentar desafios do mercado de trabalho com uma base sólida em desenvolvimento web."
-            }
-          />
-          <Card>
-            <LanguageBallons>HTML</LanguageBallons>
-            <LanguageBallons>CSS</LanguageBallons>
-            <LanguageBallons>JavaScript</LanguageBallons>
-          </Card>
+          <Section id="projects">
+            <Card
+              id="projects"
+              date="May - Dec 2000"
+              title="Lorem ipsum dolor sit amet elit sed"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt."
+            >
+              <LanguageBallons>HTML</LanguageBallons>
+              <LanguageBallons>CSS</LanguageBallons>
+              <LanguageBallons>JavaScript</LanguageBallons>
+            </Card>
+            <Card
+              id="projects"
+              date="May - Dec 2000"
+              title="Lorem ipsum dolor sit amet elit sed"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt."
+            >
+              <LanguageBallons>HTML</LanguageBallons>
+              <LanguageBallons>CSS</LanguageBallons>
+              <LanguageBallons>JavaScript</LanguageBallons>
+            </Card>
+            <Card
+              id="projects"
+              date="May - Dec 2000"
+              title="Lorem ipsum dolor sit amet elit sed"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt."
+            >
+              <LanguageBallons>HTML</LanguageBallons>
+              <LanguageBallons>CSS</LanguageBallons>
+              <LanguageBallons>JavaScript</LanguageBallons>
+            </Card>
+            <Card
+              id="projects"
+              date="May - Dec 2000"
+              title="Lorem ipsum dolor sit amet elit sed"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt."
+            >
+              <LanguageBallons>HTML</LanguageBallons>
+              <LanguageBallons>CSS</LanguageBallons>
+              <LanguageBallons>JavaScript</LanguageBallons>
+            </Card>
+          </Section>
         </main>
       </Wrapper>
     </>

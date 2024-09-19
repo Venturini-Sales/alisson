@@ -8,18 +8,16 @@ import {
 } from "./Styles";
 
 // eslint-disable-next-line react/prop-types
-export const Card = ({ children }) => {
+export const Card = ({ children, date, title, text, img }) => {
   return (
     <CardContainer>
       <InfoArea>
-        <p>July — Dec 2000</p>
+        <p>{date}</p>
+        {img && <img src={img} alt="Image" />}
       </InfoArea>
       <ContentArea>
-        <ContentTitle>Lorem ipsum dolor sit amet elit sed</ContentTitle>
-        <ContentText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt.
-        </ContentText>
+        <ContentTitle>{title}</ContentTitle>
+        <ContentText>{text}</ContentText>
         <LanguagesArea>{children}</LanguagesArea>
       </ContentArea>
     </CardContainer>
